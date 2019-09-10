@@ -1,66 +1,4 @@
 export const colors = {
-  theme: {
-    '10': {
-      hex: '#E6F9FC',
-      rgb: { r: 230, g: 249, b: 252 },
-      rgba: { r: 230, g: 249, b: 252, a: 1 },
-      cmyk: { c: 9, m: 1, y: 0, k: 1 },
-    },
-    '20': {
-      hex: '#B8F2FF',
-      rgb: { r: 184, g: 242, b: 255 },
-      rgba: { r: 184, g: 242, b: 255, a: 1 },
-      cmyk: { c: 28, m: 5, y: 0, k: 0 },
-    },
-    '30': {
-      hex: '#73E3FF',
-      rgb: { r: 115, g: 227, b: 255 },
-      rgba: { r: 115, g: 227, b: 255, a: 1 },
-      cmyk: { c: 55, m: 11, y: 0, k: 0 },
-    },
-    '40': {
-      hex: '#1DC4F2',
-      rgb: { r: 29, g: 196, b: 242 },
-      rgba: { r: 29, g: 196, b: 242, a: 1 },
-      cmyk: { c: 88, m: 19, y: 0, k: 5 },
-    },
-    '50': {
-      hex: '#00A0D1',
-      rgb: { r: 0, g: 160, b: 209 },
-      rgba: { r: 0, g: 160, b: 209, a: 1 },
-      cmyk: { c: 100, m: 23, y: 0, k: 18 },
-    },
-    '60': {
-      hex: '#007EA8',
-      rgb: { r: 0, g: 126, b: 168 },
-      rgba: { r: 0, g: 126, b: 168, a: 1 },
-      cmyk: { c: 100, m: 25, y: 0, k: 34 },
-    },
-    '70': {
-      hex: '#0A5E7D',
-      rgb: { r: 10, g: 94, b: 125 },
-      rgba: { r: 10, g: 94, b: 125, a: 1 },
-      cmyk: { c: 92, m: 25, y: 0, k: 51 },
-    },
-    '80': {
-      hex: '#124052',
-      rgb: { r: 18, g: 64, b: 82 },
-      rgba: { r: 18, g: 64, b: 82, a: 1 },
-      cmyk: { c: 78, m: 22, y: 0, k: 68 },
-    },
-    '90': {
-      hex: '#122933',
-      rgb: { r: 18, g: 41, b: 51 },
-      rgba: { r: 18, g: 41, b: 51, a: 1 },
-      cmyk: { c: 65, m: 20, y: 0, k: 80 },
-    },
-    '100': {
-      hex: '#101C21',
-      rgb: { r: 16, g: 28, b: 33 },
-      rgba: { r: 16, g: 28, b: 33, a: 1 },
-      cmyk: { c: 52, m: 15, y: 0, k: 87 },
-    },
-  },
   blue: {
     '10': {
       hex: '#E6F9FC',
@@ -1065,6 +1003,9 @@ export const colors = {
       cmyk: { c: 0, m: 39, y: 36, k: 86 },
     },
   },
+  get brand() {
+    return this.blue;
+  }
 };
 
 export const getColor = (name, value, type = 'hex') => {

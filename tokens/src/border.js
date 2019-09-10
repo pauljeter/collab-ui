@@ -1,7 +1,8 @@
 const border = {
-  small: `1px`,
-  medium: `2px`,
-  large: `4px`,
+  none: `none`,
+  small: `1px solid`,
+  medium: `2px solid`,
+  large: `4px solid`,
 };
 
 export default border;
