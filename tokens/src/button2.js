@@ -283,6 +283,7 @@ const disabled = {
     },
   },
 };
+
 const filled = {
   sizing: {
     border: border.none,
@@ -967,8 +968,6 @@ const ghost = {
   },
 };
 
-
-
 const buttonTokens = {
   pill: {
     filled,
@@ -981,20 +980,21 @@ const buttonTokens = {
     medium: pillSizes.medium,
     large: pillSizes.large,
   },
-  circle: {
-    filled,
-    outline,
-    ghost,
-    radius: {
-      borderRadius: radius.circle,
-    },
-    small: circleSizes.small,
-    medium: circleSizes.medium,
-    large: circleSizes.large,
-    xLarge: circleSizes.large,
-    xxLarge: circleSizes.large,
-    xxxLarge: circleSizes.large,
-  },
+  // circle: {
+  //   filled,
+  //   outline,
+  //   ghost,
+  //   radius: {
+  //     borderRadius: radius.circle,
+  //   },
+  //   small: circleSizes.small,
+  //   medium: circleSizes.medium,
+  //   large: circleSizes.large,
+  //   xLarge: circleSizes.large,
+  //   xxLarge: circleSizes.large,
+  //   xxxLarge: circleSizes.large,
+  // },
 };
 
 export default buttonTokens;
+

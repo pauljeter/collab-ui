@@ -21,7 +21,10 @@ const flatten = (objectOrArray, prefix = 'md_button_', formatter = k => k) => {
       );
 };
 
-const flatTokens = flatten(buttonTokens);
-const buttonJSON = JSON.stringify(flatTokens);
-
+const buttonJSON = JSON.stringify(buttonTokens);
 console.log('buttonJSON', buttonJSON);
+
+const flatTokens = flatten(buttonTokens);
+const flatJSON = JSON.stringify(flatTokens);
+console.log('flatJSON', flatJSON);
+
