@@ -251,8 +251,8 @@ const colors = {
     },
     disabled: {
       light: getColor('gray', '20'),
-      dark:  getColor('gray', '80'),
-    }
+      dark: getColor('gray', '80'),
+    },
   },
 };
 
@@ -283,6 +283,7 @@ const disabled = {
     },
   },
 };
+
 const filled = {
   sizing: {
     border: border.none,
@@ -291,20 +292,10 @@ const filled = {
     color: {
       fontColor: colors.fonts.light.normal,
       iconColor: colors.fonts.light.normal,
-      borderColor: `transparent`,
-      light: {
-        backgroundColor: {
-          normal: colors.states.brand.light.normal,
-          hover: colors.states.brand.light.hover,
-          press: colors.states.brand.light.press,
-        },
-      },
-      dark: {
-        backgroundColor: {
-          normal: colors.states.brand.dark.normal,
-          hover: colors.states.brand.dark.hover,
-          press: colors.states.brand.dark.press,
-        },
+      backgroundColor: {
+        normal: colors.states.brand.light.normal,
+        hover: colors.states.brand.light.hover,
+        press: colors.states.brand.light.press,
       },
     },
   },
@@ -312,20 +303,10 @@ const filled = {
     color: {
       fontColor: colors.fonts.light.normal,
       iconColor: colors.fonts.light.normal,
-      borderColor: `transparent`,
-      light: {
-        backgroundColor: {
-          normal: colors.states.blue.light.normal,
-          hover: colors.states.blue.light.hover,
-          press: colors.states.blue.light.press,
-        },
-      },
-      dark: {
-        backgroundColor: {
-          normal: colors.states.blue.dark.normal,
-          hover: colors.states.blue.dark.hover,
-          press: colors.states.blue.dark.press,
-        },
+      backgroundColor: {
+        normal: colors.states.blue.light.normal,
+        hover: colors.states.blue.light.hover,
+        press: colors.states.blue.light.press,
       },
     },
   },
@@ -333,20 +314,10 @@ const filled = {
     color: {
       fontColor: colors.fonts.light.normal,
       iconColor: colors.fonts.light.normal,
-      borderColor: `transparent`,
-      light: {
-        backgroundColor: {
-          normal: colors.states.red.light.normal,
-          hover: colors.states.red.light.hover,
-          press: colors.states.red.light.press,
-        },
-      },
-      dark: {
-        backgroundColor: {
-          normal: colors.states.red.dark.normal,
-          hover: colors.states.red.dark.hover,
-          press: colors.states.red.dark.press,
-        },
+      backgroundColor: {
+        normal: colors.states.red.light.normal,
+        hover: colors.states.red.light.hover,
+        press: colors.states.red.light.press,
       },
     },
   },
@@ -354,20 +325,10 @@ const filled = {
     color: {
       fontColor: colors.fonts.light.normal,
       iconColor: colors.fonts.light.normal,
-      borderColor: `transparent`,
-      light: {
-        backgroundColor: {
-          normal: colors.states.green.light.normal,
-          hover: colors.states.green.light.hover,
-          press: colors.states.green.light.press,
-        },
-      },
-      dark: {
-        backgroundColor: {
-          normal: colors.states.green.dark.normal,
-          hover: colors.states.green.dark.hover,
-          press: colors.states.green.dark.press,
-        },
+      backgroundColor: {
+        normal: colors.states.green.light.normal,
+        hover: colors.states.green.light.hover,
+        press: colors.states.green.light.press,
       },
     },
   },
@@ -375,20 +336,10 @@ const filled = {
     color: {
       fontColor: colors.fonts.light.normal,
       iconColor: colors.fonts.light.normal,
-      borderColor: `transparent`,
-      light: {
-        backgroundColor: {
-          normal: colors.states.yellow.light.normal,
-          hover: colors.states.yellow.light.hover,
-          press: colors.states.yellow.light.press,
-        },
-      },
-      dark: {
-        backgroundColor: {
-          normal: colors.states.yellow.dark.normal,
-          hover: colors.states.yellow.dark.hover,
-          press: colors.states.yellow.dark.press,
-        },
+      backgroundColor: {
+        normal: colors.states.yellow.light.normal,
+        hover: colors.states.yellow.light.hover,
+        press: colors.states.yellow.light.press,
       },
     },
   },
@@ -396,20 +347,10 @@ const filled = {
     color: {
       fontColor: colors.fonts.dark.normal,
       iconColor: colors.fonts.dark.normal,
-      borderColor: `transparent`,
-      light: {
-        backgroundColor: {
-          normal: colors.states.lightGray.light.normal,
-          hover: colors.states.lightGray.light.hover,
-          press: colors.states.lightGray.light.press,
-        },
-      },
-      dark: {
-        backgroundColor: {
-          normal: colors.states.lightGray.dark.normal,
-          hover: colors.states.lightGray.dark.hover,
-          press: colors.states.lightGray.dark.press,
-        },
+      backgroundColor: {
+        normal: colors.states.lightGray.light.normal,
+        hover: colors.states.lightGray.light.hover,
+        press: colors.states.lightGray.light.press,
       },
     },
   },
@@ -417,20 +358,10 @@ const filled = {
     color: {
       fontColor: colors.fonts.light.normal,
       iconColor: colors.fonts.light.normal,
-      borderColor: `transparent`,
-      light: {
-        backgroundColor: {
-          normal: colors.states.darkGray.light.normal,
-          hover: colors.states.darkGray.light.hover,
-          press: colors.states.darkGray.light.press,
-        },
-      },
-      dark: {
-        backgroundColor: {
-          normal: colors.states.darkGray.dark.normal,
-          hover: colors.states.darkGray.dark.hover,
-          press: colors.states.darkGray.dark.press,
-        },
+      backgroundColor: {
+        normal: colors.states.darkGray.light.normal,
+        hover: colors.states.darkGray.light.hover,
+        press: colors.states.darkGray.light.press,
       },
     },
   },
@@ -438,20 +369,10 @@ const filled = {
     color: {
       fontColor: colors.fonts.dark.normal,
       iconColor: colors.fonts.dark.normal,
-      borderColor: `transparent`,
-      light: {
-        backgroundColor: {
-          normal: colors.states.white.light.normal,
-          hover: colors.states.white.light.hover,
-          press: colors.states.white.light.press,
-        },
-      },
-      dark: {
-        backgroundColor: {
-          normal: colors.states.white.dark.normal,
-          hover: colors.states.white.dark.hover,
-          press: colors.states.white.dark.press,
-        },
+      backgroundColor: {
+        normal: colors.states.white.light.normal,
+        hover: colors.states.white.light.hover,
+        press: colors.states.white.light.press,
       },
     },
   },
@@ -495,8 +416,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.brand.light.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.brand.light.hover,
+          press: colors.states.brand.light.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -517,8 +438,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.brand.dark.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.brand.dark.hover,
+          press: colors.states.brand.dark.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -543,8 +464,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.blue.light.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.blue.light.hover,
+          press: colors.states.blue.light.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -565,8 +486,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.blue.dark.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.blue.dark.hover,
+          press: colors.states.blue.dark.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -591,8 +512,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.red.light.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.red.light.hover,
+          press: colors.states.red.light.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -613,8 +534,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.red.dark.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.red.dark.hover,
+          press: colors.states.red.dark.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -639,8 +560,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.green.light.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.green.light.hover,
+          press: colors.states.green.light.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -661,8 +582,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.green.dark.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.green.dark.hover,
+          press: colors.states.green.dark.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -687,8 +608,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.yellow.light.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.yellow.light.hover,
+          press: colors.states.yellow.light.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -709,8 +630,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.yellow.dark.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.yellow.dark.hover,
+          press: colors.states.yellow.dark.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -735,8 +656,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.lightGray.light.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.lightGray.light.hover,
+          press: colors.states.lightGray.light.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -757,8 +678,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.lightGray.dark.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.lightGray.dark.hover,
+          press: colors.states.lightGray.dark.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -783,8 +704,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.darkGray.light.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.darkGray.light.hover,
+          press: colors.states.darkGray.light.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -805,8 +726,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.darkGray.dark.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.darkGray.dark.hover,
+          press: colors.states.darkGray.dark.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -831,8 +752,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.white.light.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.white.light.hover,
+          press: colors.states.white.light.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -853,8 +774,8 @@ const outline = {
         },
         borderColor: {
           normal: colors.states.white.dark.normal,
-          hover: `transparent`,
-          press: `transparent`,
+          hover: colors.states.white.dark.hover,
+          press: colors.states.white.dark.press,
         },
         backgroundColor: {
           normal: `transparent`,
@@ -966,8 +887,6 @@ const ghost = {
     },
   },
 };
-
-
 
 const buttonTokens = {
   pill: {

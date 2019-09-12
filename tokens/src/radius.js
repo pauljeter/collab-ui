@@ -1,9 +1,9 @@
 const radius = {
-  none: 0,
-  small: 2,
-  medium: 4,
-  large: 8,
-  pill: 120,
+  none: `0px`,
+  small: `2px`,
+  medium: `4px`,
+  large: `8px`,
+  pill: `120px`,
   circle: `50%`,
 };
 
